@@ -68,6 +68,7 @@ The parking application provides a simple API to manage parking slots in various
     "available_slots": 8
   }
 }
+```
 Park Vehicle
 
     *Request: POST /parking/BlockA
