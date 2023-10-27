@@ -77,6 +77,7 @@ Park Vehicle
 {
   "message": "Vehicle successfully parked in BlockA"
 }
+```
 Exit Parking
 
     *Request: DELETE /parking/BlockA
@@ -85,11 +86,12 @@ Exit Parking
 {
   "message": "Vehicle has successfully exited from BlockA"
 }
+```
     *Response (400 Bad Request):
 ```json
 
 {
   "message": "Block is unavailable or already full"
 }
-
+```
 
